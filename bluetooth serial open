@@ -1,0 +1,3 @@
+ls -lah /dev/rfcomm3
+gcc concentradorGTK.c rs232-linux.c -o gtk `pkg-config --cflags --libs gtk+-3.0`
+sudo chown pc:pc /dev/rfcommXX
